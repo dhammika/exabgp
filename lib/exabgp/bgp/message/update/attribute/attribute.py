@@ -75,9 +75,6 @@ class Attribute (object):
 		TUNNEL_ENCAP       = 0x17  # 23
 		AIGP               = 0x1A  # 26
 
-		# draft-heitz-idr-large-community-00
-		LARGE_COMMUNITY    = 0x29  # 41
-
 		INTERNAL_NAME      = 0xFFFC
 		INTERNAL_WITHDRAW  = 0xFFFD
 		INTERNAL_WATCHDOG  = 0xFFFE
@@ -102,7 +99,6 @@ class Attribute (object):
 			PMSI_TUNNEL:        'pmsi-tunnel',
 			TUNNEL_ENCAP:       'tunnel-encaps',
 			AIGP:               'aigp',
-			LARGE_COMMUNITY:    'large-community',
 			0xfffc:             'internal-name',
 			0xfffd:             'internal-withdraw',
 			0xfffe:             'internal-watchdog',

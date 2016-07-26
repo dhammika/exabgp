@@ -76,7 +76,6 @@ class Attributes (dict):
 		Attribute.CODE.ORIGINATOR_ID:      ('inet',    '', 'originator-id',      '%s',     '%s'),
 		Attribute.CODE.CLUSTER_LIST:       ('list',    '', 'cluster-list',       '%s',     '%s'),
 		Attribute.CODE.EXTENDED_COMMUNITY: ('list',    '', 'extended-community', '%s',     '%s'),
-		Attribute.CODE.LARGE_COMMUNITY:    ('list',    '', 'large-community',    '%s',     '%s'),
 		Attribute.CODE.PMSI_TUNNEL:        ('string',  '', 'pmsi',               '%s',     '%s'),
 		Attribute.CODE.AIGP:               ('integer', '', 'aigp',               '%s',     '%s'),
 		Attribute.CODE.INTERNAL_NAME:      ('string',  '', 'name',               '%s',     '%s'),
